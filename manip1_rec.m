@@ -55,15 +55,3 @@ ylabel('Signal');
 legend('DSP');
 
 
-%%
-% fminTest=mod(fmin,fech);
-% if(fminTest~=fmin)
-%     fmin=mod(fmin,fech)-fech/2;
-% end
-% fmaxTest=mod(fmax,fech);
-% if(fmaxTest~=fmax)
-%     fmax=mod(fmax,fech)-fech/2;
-% end
-% 
-
-%Test=DSP(round(1+NFFT*(fmin/fech+0.5)):round(1+NFFT*(fmax/fech+0.5)));
